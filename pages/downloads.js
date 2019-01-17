@@ -16,7 +16,7 @@ export default class extends Component {
                   <p className="lead divider-subtitle mt-2 text-muted">The easiest way to store your funds. Manage your money from any device.</p>
                 </div>
                 <div className="col-12">
-                  <a href="https://github.com/Frontekip/ekipwallet-gui/releases/download/0.0.1/ekipwallet-0.0.1-osx.zip" className="btn btn-primary mr-2">
+                  <a href="https://github.com/tmycoin/timmywallet/releases/download/0.0.1/timmywallet-0.0.1-macosx.zip" className="btn btn-primary mr-2">
                     <i class="fa fa-apple" aria-hidden="true"></i> Download
                   </a>
                   <a href="https://wallet.timmycoin.net" className="btn btn-primary disabled">
