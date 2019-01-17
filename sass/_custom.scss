@@ -1,0 +1,238 @@
+.lh-30 {
+  line-height: 25px;
+}
+
+.divider-subtitle {
+  min-height: 100px;
+}
+
+.text-lightv {
+  color: #ccc;
+}
+
+.team-section {
+  .sec-title {
+    h2 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 30px;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 20%;
+        height: 2px;
+        background: #F0CB1E;
+        left: 40%;
+        bottom: 60px;
+      }
+    }
+  }
+
+  .team-box {
+    padding: 10px;
+  }
+
+  .team-img img {
+    width: 200px;
+    border-radius: 200px;
+  }
+
+  .team-title {
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #F0CB1E;
+      margin: 15px 0;
+    }
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    p {
+      line-height: 22px;
+    }
+
+    &__socials {
+      a {
+        margin: 0 5px;
+
+        i {
+          font-size: 25px;
+        }
+
+        &:hover,
+        &:focus {
+          color: #d0b01a;
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  a {
+    &:hover,
+    &:focus {
+      color: #d0b01a;
+    }
+  }
+}
+
+
+.mining-pools {
+  a {
+    display: inline-block;
+  }
+}
+
+
+.blue-bg {
+  background-color: #4D4545;
+  color: #ED8D8D;
+  height: 100%;
+}
+
+.circle {
+  font-weight: bold;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #F0CB1E;
+  color: #fff;
+  z-index: 2;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.how-it-works.row {
+  display: flex;
+  .col-2,
+  .col-4 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      content: "";
+      position: absolute;
+      border-left: 3px solid #F0CB1E;
+      z-index: 1;
+    }
+    &.bottom::after {
+      height: 50%;
+      left: 50%;
+      top: 50%;
+    }
+    &.full::after {
+      height: 100%;
+      left: calc(50% - 3px);
+    }
+    &.top::after {
+      height: 50%;
+      left: 50%;
+      top: 0;
+    }
+  }
+}
+
+.timeline {
+  div {
+    padding: 0;
+    height: 40px;
+  }
+  hr {
+    border-top: 3px solid #F0CB1E;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .corner {
+    border: 3px solid #F0CB1E;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+}
+
+.roadmap-disabled {
+  opacity: 0.5;
+}
+
+
+.mining-page {
+  a {
+    margin: 0 5px;
+
+    i {
+      font-size: 25px;
+    }
+
+    &:hover,
+    &:focus {
+      color: #d0b01a;
+    }
+  }
+}
+
+.w-break {
+  word-break: break-word;
+  white-space: normal;
+}
+@media (max-width: 736px) {
+   .footer-heading {
+     height: 40px;
+   }
+ }
+
+
+.header-socials {
+  text-align: center;
+
+  a {
+    padding: 0 10px;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 0.9;
+    }
+
+    .fa {
+      font-size: 50px;
+
+      &-telegram {
+        color: #54a9eb;
+      }
+
+      &-twitter {
+        color: #1da1f2;
+      }
+
+      &-instagram {
+        color: #d6249f;
+      }
+    }
+  }
+}
