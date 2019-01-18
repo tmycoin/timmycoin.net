@@ -16,17 +16,12 @@ export default class extends Component {
                 </div>
               </div>
               <div className="row mb-3">
-                <div className="col-12 col-md-12 col-xl-4 mb-4">
-                  <a href="https://crypto9coin.cf/ekp" className="btn btn-primary mr-3" target="_blank">
-                    Go to the <b>crypto9coin</b>
-                  </a>
-                </div>
-                <div className="col-12 col-md-12 col-xl-4 mb-4">
-                  <a href="https://cnpool.cc/ekp" className="btn btn-primary mr-3" target="_blank">
+                <div className="col-12 col-md-12 col-xl-6 mb-4">
+                  <a href="https://cnpool.cc/TMY" className="btn btn-primary mr-3" target="_blank">
                     Go to the <b>cnpool</b>
                   </a>
                 </div>
-                <div className="col-12 col-md-12 col-xl-4 mb-4">
+                <div className="col-12 col-md-12 col-xl-6 mb-4">
                   <a href="http://youpool.io/TMY" className="btn btn-primary mr-3" target="_blank">
                     Go to the <b>youpool</b>
                   </a>
