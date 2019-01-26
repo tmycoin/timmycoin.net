@@ -22,13 +22,20 @@ export default class extends Component {
           <div className="container">
             <div className="row">
               <div className="col-12 col-xl-7 col-md-7 mx-auto mt-1 mb-5 text-center">
-                <img src="/static/images/logo.png" />
+                <img src="/static/images/logo.png" width={175}/>
               </div>
             </div>
             <div className="row justify-content-center">
               <div className="col-12 col-md-8 col-xl-8 text-center">
                 <h2>Timmycoin (TMY) is Private, Untraceable, a CryptoCurrency.</h2>
-                <p className="lead text-muted mt-4 mb-5">A Private Untraceable CryptoCurrency , Based on CryptoNote Technology.</p>
+                <p className="lead text-muted mt-4 mb-4">A Private Untraceable CryptoCurrency , Based on CryptoNote Technology.</p>
+                <div className="col-12 mb-4">
+                  <div className="text-center">
+                    <a href="https://play.google.com/store/apps/details?id=com.timmycoin" target="_blank">
+                      <img src="/static/images/google.png" width={150} />
+                    </a>
+                  </div>
+                </div>
                 <div className="row">
                   <div className="col-12 header-socials">
                     <a href="https://t.me/tmycoin" target="_blank">
@@ -42,7 +49,7 @@ export default class extends Component {
                     </a>
                   </div>
                   <div className="col-12">
-                    <div className="mt-5 text-center">
+                    <div className="mt-4 text-center">
                       <button type="button" className="btn btn-secondary btn-lg btn-block w-break">
                         Total Available Supply: <b>{this.props.supply.toFixed(2)} TMY</b>
                       </button>
