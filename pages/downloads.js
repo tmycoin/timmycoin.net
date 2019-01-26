@@ -36,10 +36,10 @@ export default class extends Component {
                   </p>
                 </div>
                 <div className="col-12">
-                  <a href="https://github.com/tmycoin/timmy/releases/download/0.0.1/timmycoin-0.0.1-macosx64.zip" className="btn btn-primary mr-2">
+                  <a href="https://github.com/tmycoin/timmy/releases/download/0.0.2/timmycoin-0.0.2-macosx64.zip" className="btn btn-primary mr-2">
                     <i class="fa fa-apple" aria-hidden="true"></i> Download
                   </a>
-                  <a href="https://github.com/tmycoin/timmy/releases/download/0.0.1/timmycoin-0.0.1-linux64.tar.gz" className="btn btn-primary">
+                  <a href="https://github.com/tmycoin/timmy/releases/download/0.0.2/timmycoin-0.0.2-linux64.tar.gz" className="btn btn-primary">
                     <i class="fa fa-linux" aria-hidden="true"></i> Download
                   </a>
                 </div>
