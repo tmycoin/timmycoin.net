@@ -22,7 +22,7 @@ export default class extends Component {
           <div className="container">
             <div className="row">
               <div className="col-12 col-xl-7 col-md-7 mx-auto mt-1 mb-5 text-center">
-                <img src="/static/images/logo.png" width={175}/>
+                <img src="/static/images/logo.svg" width={200}/>
               </div>
             </div>
             <div className="row justify-content-center">

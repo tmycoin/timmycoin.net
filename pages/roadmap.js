@@ -87,13 +87,10 @@ export default class extends Component {
               </div>
             </div>
 
-            <div className="row align-items-center justify-content-end how-it-works roadmap-disabled">
+            <div className="row align-items-center justify-content-end how-it-works">
               <div className="col-6 text-right">
-                <h5>Windows Desktop Wallet</h5>
-                <p>
-                  It will be your desktop wallets for all your environments
-                  specially.
-                </p>
+                <h5>26.02.2019 - First Exchange Listing</h5>
+                <p>You can exchange timmycoin with <b>bitexlive</b> ;)</p>
               </div>
               <div className="col-2 text-center full">
                 <div className="circle">4</div>
@@ -116,8 +113,11 @@ export default class extends Component {
                 <div className="circle">5</div>
               </div>
               <div className="col-6">
-                <h5>First Exchange, Mining Pool</h5>
-                <p>Timmycoin own pool and also agreements to be exchanged.</p>
+                <h5>Windows Desktop Wallet</h5>
+                <p>
+                  It will be your desktop wallets for all your environments
+                  specially.
+                </p>
               </div>
             </div>
 

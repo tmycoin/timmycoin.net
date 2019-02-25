@@ -10,7 +10,7 @@ export default class extends Component {
             <div className="row">
               <div className="col-12 col-sm-3 col-xl-3 col-md-3 mb-5 pb-5 mb-lg-0">
                 <div className="footer-logo">
-                  <img src="/static/images/how.png" width="100" height="120" className="img-fluid" />
+                  <img src="/static/images/how.svg" width="100" height="120" className="img-fluid" />
                 </div>
               </div>
               <div className="col-12 col-sm-3 col-xl-3 col-md-3 mb-5 mb-lg-0">

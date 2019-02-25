@@ -28,7 +28,7 @@ export default class extends Component {
 
             <div className="col-12 col-md-12 col-xl-6">
               <h2 className="divider-heading">Timmycoin Daemons (Stable)</h2>
-              <h4 className="text-lightv">version 0.0.1</h4>
+              <h4 className="text-lightv">version 0.0.2</h4>
               <div className="row">
                 <div className="col-12">
                   <p className="lead divider-subtitle mt-2 text-muted">
@@ -41,6 +41,9 @@ export default class extends Component {
                   </a>
                   <a href="https://github.com/tmycoin/timmy/releases/download/0.0.2/timmycoin-0.0.2-linux64.tar.gz" className="btn btn-primary">
                     <i class="fa fa-linux" aria-hidden="true"></i> Download
+                  </a>
+                  <a href="https://github.com/tmycoin/timmy/releases/download/0.0.2/timmycoin-0.0.2-win64.zip" className="btn btn-primary mt-3">
+                    <i class="fa fa-windows" aria-hidden="true"></i> Download
                   </a>
                 </div>
               </div>
